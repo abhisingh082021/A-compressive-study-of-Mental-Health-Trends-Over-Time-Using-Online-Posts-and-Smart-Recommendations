@@ -62,12 +62,14 @@ Embeddings + LogisticRegression -> acc:0.9984 prec:1.0000 rec:0.9983 f1:0.9992
 Embeddings + RandomForest -> acc:0.9935 prec:0.9933 rec:1.0000 f1:0.9967
 
 Summary:
-                                  accuracy  precision    recall        f1
-model                                                                   
-TFIDF + LogisticRegression       0.998379   1.000000  0.998322  0.999160
-TFIDF + LinearSVC                0.998379   1.000000  0.998322  0.999160
-Embeddings + LogisticRegression  0.998379   1.000000  0.998322  0.999160
-Embeddings + RandomForest        0.993517   0.993333  1.000000  0.996656
+## Model Performance Summary
+
+| Model                          | Accuracy  | Precision | Recall   | F1 Score |
+|--------------------------------|-----------|-----------|----------|----------|
+| TFIDF + LogisticRegression      | 0.9984    | 1.0000    | 0.9983   | 0.9992   |
+| TFIDF + LinearSVC               | 0.9984    | 1.0000    | 0.9983   | 0.9992   |
+| Embeddings + LogisticRegression | 0.9984    | 1.0000    | 0.9983   | 0.9992   |
+| Embeddings + RandomForest       | 0.9935    | 0.9933    | 1.0000   | 0.9967   |
 
 
 <img width="974" height="584" alt="image" src="https://github.com/user-attachments/assets/f89b1dd9-2788-4b90-a0b0-145babd310b9" />
